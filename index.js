@@ -6,6 +6,11 @@ const mongoose =require('mongoose');
 const app = express();
 const port = 3010;
 
+const MONGO_URI=process.env.MONGO_URI;
+
+mongoose.connect(MONGO_URI)
+.then(()=>console.log('Connected to database'))
+.catch((err)=>console.log('error connecting to database:',err));
 
 app.use(express.static('static'));
 

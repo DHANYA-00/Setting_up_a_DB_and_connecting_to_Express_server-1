@@ -1,10 +1,27 @@
 {
   "name": "express-simple-starter",
+  "version": "1.0.0",
   "private": true,
+  "description": "Imagine you are tasked with setting up a backend for a customer management system. The system's database is hosted on MongoDB, and you need to create a Node.js server using Express.js to interact with the database. Your job is to set up the server, connect it to MongoDB atlas, and ensure the connection status is logged appropriately.",
+  "keywords": [],
+  "homepage": "https://github.com/DHANYA-00/Setting_up_a_DB_and_connecting_to_Express_server-1#readme",
+  "bugs": {
+    "url": "https://github.com/DHANYA-00/Setting_up_a_DB_and_connecting_to_Express_server-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHANYA-00/Setting_up_a_DB_and_connecting_to_Express_server-1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
   }
 }
